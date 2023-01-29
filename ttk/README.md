@@ -1,6 +1,3 @@
-# The Tarsqi Toolkit
-
-This is the main repository for the Tarsqi Toolkit (TTK), a set of processing components for extracting temporal information from news wire texts. TTK extracts time expressions, events, subordination links and temporal links; in addition, it can ensure consistency of temporal information.
-
-To use the Tarsqi Toolkit first either clone this repository or download the most recent release from https://github.com/tarsqi/ttk/releases, then follow the instructions in the manual link at `docs/index.html`.
+This is project that contains all the required files to create a docker container of TARSQI tookit. 
+The container has a server.py file that hosts a flask based web server. It exposes an api that receives text as an input and dct as a document creation time, and return tarsqi annnotated string output.
 
