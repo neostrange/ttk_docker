@@ -1,0 +1,43 @@
+<ttk>
+<text>the quick brown fox will come today and lazy from will come tomorrow</text>
+<metadata>
+  <dct value="20070810"/>
+  <processing_steps>
+    <processing_step  ttk_version="3.0.1" git_commit="41b7779" timestamp="20230128-223211" components="PREPROCESSOR,GUTIME,EVITA,SLINKET,S2T,BLINKER,CLASSIFIER"/>
+  </processing_steps>
+</metadata>
+<source_tags>
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="0" end="68" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="0" end="68" id="s1" origin="PREPROCESSOR" />
+  <ng begin="0" end="19" id="c1" origin="PREPROCESSOR" />
+  <lex begin="0" end="3" id="l1" lemma="the" origin="PREPROCESSOR" pos="DT" text="the" />
+  <lex begin="4" end="9" id="l2" lemma="quick" origin="PREPROCESSOR" pos="JJ" text="quick" />
+  <lex begin="10" end="15" id="l3" lemma="brown" origin="PREPROCESSOR" pos="JJ" text="brown" />
+  <lex begin="16" end="19" id="l4" lemma="fox" origin="PREPROCESSOR" pos="NN" text="fox" />
+  <vg begin="20" end="29" id="c2" origin="PREPROCESSOR" />
+  <lex begin="20" end="24" id="l5" lemma="will" origin="PREPROCESSOR" pos="MD" text="will" />
+  <lex begin="25" end="29" id="l6" lemma="come" origin="PREPROCESSOR" pos="VB" text="come" />
+  <EVENT begin="25" end="29" aspect="NONE" class="OCCURRENCE" eid="e1" eiid="ei1" epos="VERB" form="come" origin="EVITA" pos="VB" tense="FUTURE" />
+  <lex begin="30" end="35" id="l7" lemma="today" origin="PREPROCESSOR" pos="NN" text="today" />
+  <ng begin="30" end="35" id="c3" origin="PREPROCESSOR" />
+  <TIMEX3 begin="30" end="35" origin="GUTIME" tid="t1" type="DATE" value="20070810" />
+  <lex begin="36" end="39" id="l8" lemma="and" origin="PREPROCESSOR" pos="CC" text="and" />
+  <lex begin="40" end="44" id="l9" lemma="lazy" origin="PREPROCESSOR" pos="JJ" text="lazy" />
+  <lex begin="45" end="49" id="l10" lemma="from" origin="PREPROCESSOR" pos="IN" text="from" />
+  <vg begin="50" end="59" id="c4" origin="PREPROCESSOR" />
+  <lex begin="50" end="54" id="l11" lemma="will" origin="PREPROCESSOR" pos="MD" text="will" />
+  <lex begin="55" end="59" id="l12" lemma="come" origin="PREPROCESSOR" pos="VB" text="come" />
+  <EVENT begin="55" end="59" aspect="NONE" class="OCCURRENCE" eid="e2" eiid="ei2" epos="VERB" form="come" origin="EVITA" pos="VB" tense="FUTURE" />
+  <lex begin="60" end="68" id="l13" lemma="tomorrow" origin="PREPROCESSOR" pos="NN" text="tomorrow" />
+  <TIMEX3 begin="60" end="68" origin="GUTIME" tid="t2" type="DATE" value="20070811" />
+  <ng begin="60" end="68" origin="GUTIME" />
+  <TLINK lid="l1" origin="BLINKER-TimexLinking" relType="BEFORE" relatedToTime="t2" timeID="t1" />
+  <TLINK eventInstanceID="ei1" lid="l2" origin="BLINKER-Type-1a" relType="IS_INCLUDED" relatedToTime="t1" />
+  <TLINK eventInstanceID="ei2" lid="l3" origin="BLINKER-Type-1a" relType="IS_INCLUDED" relatedToTime="t2" />
+  <TLINK eventInstanceID="ei1" lid="l4" origin="CLASSIFIER-0.4957" relType="IS_INCLUDED" relatedToTime="t1" />
+  <TLINK eventInstanceID="ei2" lid="l5" origin="CLASSIFIER-0.4958" relType="IS_INCLUDED" relatedToTime="t1" />
+  <TLINK eventInstanceID="ei2" lid="l6" origin="CLASSIFIER-0.4957" relType="IS_INCLUDED" relatedToTime="t2" />
+</tarsqi_tags>
+</ttk>
