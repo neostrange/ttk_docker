@@ -28,7 +28,7 @@ cd ttk_docker
    docker build -t ttk-docker .
 
 3. Run the Docker container:
-   docker run -p 5000:5000 ttk-docker
+   docker run -p 5050:5000 ttk-docker
 
 The application will be available at http://localhost:5000.
 
